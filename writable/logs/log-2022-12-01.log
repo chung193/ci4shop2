@@ -1,0 +1,351 @@
+CRITICAL - 2022-12-01 08:02:21 --> Tập tin không hợp lệ:auth/passwordchangesuccess.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/passwordchangesuccess.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('auth/passwordchangesuccess', [], true)
+ 3 APPPATH\Controllers\auth\Forgot.php(142): view('auth/passwordchangesuccess')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\auth\Forgot->updatepassword()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\auth\Forgot))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 00:07:07 --> Undefined variable $data
+in APPPATH\Views\manage\layout.php on line 7.
+ 1 APPPATH\Views\manage\layout.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\manage\\layout.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\manage\\layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('manage/layout', [], true)
+ 5 APPPATH\Controllers\manage\Slider.php(19): view('manage/layout', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\manage\Slider->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\manage\Slider))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 00:11:51 --> Undefined array key "site"
+in APPPATH\Views\manage\layout.php on line 9.
+ 1 APPPATH\Views\manage\layout.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "site"', 'APPPATH\\Views\\manage\\layout.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\manage\\layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('manage/layout', [], true)
+ 5 APPPATH\Controllers\manage\Slider.php(19): view('manage/layout', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\manage\Slider->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\manage\Slider))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 00:12:36 --> Tập tin không hợp lệ:/manage/contents/shopslider/slider_view.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/manage/contents/shopslider/slider_view.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/manage/contents/shopslider/slider_view', [], true)
+ 3 APPPATH\Views\manage\layout.php(58): view('/manage/contents/shopslider/slider_view', [...])
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\manage\\layout.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('manage/layout', [], true)
+ 7 APPPATH\Controllers\manage\Slider.php(32): view('manage/layout', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\manage\Slider->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\manage\Slider))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 00:15:48 --> Undefined variable $data
+in APPPATH\Views\manage\layout.php on line 7.
+ 1 APPPATH\Views\manage\layout.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\manage\\layout.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\manage\\layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('manage/layout', [], true)
+ 5 APPPATH\Controllers\manage\Slider.php(45): view('manage/layout', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\manage\Slider->add()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\manage\Slider))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 00:22:13 --> Undefined variable $data
+in APPPATH\Views\manage\layout.php on line 7.
+ 1 APPPATH\Views\manage\layout.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\manage\\layout.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\manage\\layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('manage/layout', [], true)
+ 5 APPPATH\Controllers\manage\Slider.php(112): view('manage/layout', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\manage\Slider->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\manage\Slider))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 02:21:58 --> Tập tin không hợp lệ:frontend/components/frontend/contents/home/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/components/frontend/contents/home/index.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('frontend/components/frontend/contents/home/index', [], true)
+ 3 APPPATH\Views\frontend\layout.php(5): view('frontend/components/frontend/contents/home/index')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\frontend\\layout.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('frontend/layout', [], true)
+ 7 APPPATH\Controllers\Home.php(31): view('frontend/layout', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-01 02:36:53 --> mysqli_sql_exception: Table 'ci4_shop2.slider' doesn't exist in C:\xampp\htdocs\ci4shop2\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ci4shop2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ci4shop2\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci4shop2\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci4shop2\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4shop2\app\Models\manage\Slider_model.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4shop2\app\Controllers\manage\Slider.php(22): App\Models\manage\Slider_model->getSlider()
+#6 C:\xampp\htdocs\ci4shop2\system\CodeIgniter.php(927): App\Controllers\manage\Slider->index()
+#7 C:\xampp\htdocs\ci4shop2\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\manage\Slider))
+#8 C:\xampp\htdocs\ci4shop2\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4shop2\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-01 02:36:53 --> Table 'ci4_shop2.slider' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `slider`
+ORDER BY `id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `slider`
+ORDER BY `id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `slider`
+ORDER BY `id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `slider`
+ORDER BY `id` DESC', [], false)
+ 5 APPPATH\Models\manage\Slider_model.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\manage\Slider.php(22): App\Models\manage\Slider_model->getSlider()
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\manage\Slider->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\manage\Slider))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 02:55:01 --> Undefined variable $data
+in APPPATH\Views\manage\layout.php on line 7.
+ 1 APPPATH\Views\manage\layout.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\manage\\layout.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\manage\\layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('manage/layout', [], true)
+ 5 APPPATH\Controllers\manage\ShopProduct.php(22): view('manage/layout', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\manage\ShopProduct->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\manage\ShopProduct))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 03:16:12 --> Cannot redeclare showCategories() (previously declared in C:\xampp\htdocs\ci4shop2\app\Helpers\common_helper.php:180)
+in APPPATH\Views\manage\contents\shopproduct\edit_shop_product_view.php on line 182.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-01 03:17:01 --> Undefined array key "title"
+in APPPATH\Helpers\common_helper.php on line 186.
+ 1 APPPATH\Helpers\common_helper.php(186): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'APPPATH\\Helpers\\common_helper.php', 186)
+ 2 APPPATH\Views\manage\contents\shopproduct\edit_shop_product_view.php(26): showCategories([...])
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\manage\\contents\\shopproduct\\edit_shop_product_view.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/manage/contents/shopproduct/edit_shop_product_view', [], true)
+ 6 APPPATH\Views\manage\layout.php(58): view('/manage/contents/shopproduct/edit_shop_product_view', [...])
+ 7 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\manage\\layout.php')
+ 8 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('manage/layout', [], true)
+10 APPPATH\Controllers\manage\ShopProduct.php(182): view('manage/layout', [...])
+11 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\manage\ShopProduct->edit('81')
+12 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\manage\ShopProduct))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-01 03:17:36 --> mysqli_sql_exception: Unknown column 'shop_category.name' in 'field list' in C:\xampp\htdocs\ci4shop2\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ci4shop2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `shop_pr...', 0)
+#1 C:\xampp\htdocs\ci4shop2\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `shop_pr...')
+#2 C:\xampp\htdocs\ci4shop2\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `shop_pr...')
+#3 C:\xampp\htdocs\ci4shop2\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `shop_pr...', Array, false)
+#4 C:\xampp\htdocs\ci4shop2\app\Models\manage\Shop_Product_model.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4shop2\app\Controllers\manage\ShopProduct.php(169): App\Models\manage\Shop_Product_model->getshopproduct('81')
+#6 C:\xampp\htdocs\ci4shop2\system\CodeIgniter.php(927): App\Controllers\manage\ShopProduct->edit('81')
+#7 C:\xampp\htdocs\ci4shop2\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\manage\ShopProduct))
+#8 C:\xampp\htdocs\ci4shop2\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4shop2\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-01 03:17:36 --> Unknown column 'shop_category.name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `shop_product`.*, `shop_category`.`name` as `catname`
+FROM `shop_product`
+JOIN `shop_category` ON `shop_category`.`id` = `shop_product`.`category_id`
+WHERE `shop_product`.`id` = \'81\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `shop_product`.*, `shop_category`.`name` as `catname`
+FROM `shop_product`
+JOIN `shop_category` ON `shop_category`.`id` = `shop_product`.`category_id`
+WHERE `shop_product`.`id` = \'81\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `shop_product`.*, `shop_category`.`name` as `catname`
+FROM `shop_product`
+JOIN `shop_category` ON `shop_category`.`id` = `shop_product`.`category_id`
+WHERE `shop_product`.`id` = \'81\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `shop_product`.*, `shop_category`.`name` as `catname`
+FROM `shop_product`
+JOIN `shop_category` ON `shop_category`.`id` = `shop_product`.`category_id`
+WHERE `shop_product`.`id` = :shop_product.id:', [...], false)
+ 5 APPPATH\Models\manage\Shop_Product_model.php(29): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\manage\ShopProduct.php(169): App\Models\manage\Shop_Product_model->getshopproduct('81')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\manage\ShopProduct->edit('81')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\manage\ShopProduct))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 03:18:41 --> Undefined variable $test
+in APPPATH\Views\manage\contents\shopproduct\edit_shop_product_view.php on line 146.
+ 1 APPPATH\Views\manage\contents\shopproduct\edit_shop_product_view.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $test', 'APPPATH\\Views\\manage\\contents\\shopproduct\\edit_shop_product_view.php', 146)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\manage\\contents\\shopproduct\\edit_shop_product_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/manage/contents/shopproduct/edit_shop_product_view', [], true)
+ 5 APPPATH\Views\manage\layout.php(58): view('/manage/contents/shopproduct/edit_shop_product_view', [...])
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\manage\\layout.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('manage/layout', [], true)
+ 9 APPPATH\Controllers\manage\ShopProduct.php(182): view('manage/layout', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\manage\ShopProduct->edit('81')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\manage\ShopProduct))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 09:32:30 --> Cannot redeclare showCategories() (previously declared in C:\xampp\htdocs\ci4shop2\app\Helpers\common_helper.php:180)
+in APPPATH\Views\manage\contents\shopcategory\shopcategory_view.php on line 71.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-01 10:05:20 --> Cannot redeclare showCategories() (previously declared in C:\xampp\htdocs\ci4shop2\app\Helpers\common_helper.php:180)
+in APPPATH\Views\manage\contents\shopcategory\shopcategory_view.php on line 71.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-01 10:28:19 --> Cannot redeclare showCategories() (previously declared in C:\xampp\htdocs\ci4shop2\app\Helpers\common_helper.php:190)
+in APPPATH\Views\manage\contents\shopcategory\edit_shopcategory_view.php on line 81.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-01 10:29:41 --> Cannot redeclare showCategories() (previously declared in C:\xampp\htdocs\ci4shop2\app\Helpers\common_helper.php:190)
+in APPPATH\Views\manage\contents\shopcategory\edit_shopcategory_view.php on line 81.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-01 10:31:04 --> Cannot redeclare showCategories() (previously declared in C:\xampp\htdocs\ci4shop2\app\Helpers\common_helper.php:190)
+in APPPATH\Views\manage\contents\shopcategory\edit_shopcategory_view.php on line 81.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-01 10:31:42 --> Undefined property: stdClass::$name
+in APPPATH\Views\manage\contents\shopcategory\edit_shopcategory_view.php on line 11.
+ 1 APPPATH\Views\manage\contents\shopcategory\edit_shopcategory_view.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$name', 'APPPATH\\Views\\manage\\contents\\shopcategory\\edit_shopcategory_view.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\manage\\contents\\shopcategory\\edit_shopcategory_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/manage/contents/shopcategory/edit_shopcategory_view', [], true)
+ 5 APPPATH\Views\manage\layout.php(58): view('/manage/contents/shopcategory/edit_shopcategory_view', [...])
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\manage\\layout.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('manage/layout', [], true)
+ 9 APPPATH\Controllers\manage\ShopCategory.php(128): view('manage/layout', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\manage\ShopCategory->edit('1')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\manage\ShopCategory))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 10:32:47 --> Undefined property: stdClass::$name
+in APPPATH\Views\manage\contents\shopcategory\edit_shopcategory_view.php on line 11.
+ 1 APPPATH\Views\manage\contents\shopcategory\edit_shopcategory_view.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$name', 'APPPATH\\Views\\manage\\contents\\shopcategory\\edit_shopcategory_view.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\manage\\contents\\shopcategory\\edit_shopcategory_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/manage/contents/shopcategory/edit_shopcategory_view', [], true)
+ 5 APPPATH\Views\manage\layout.php(58): view('/manage/contents/shopcategory/edit_shopcategory_view', [...])
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\manage\\layout.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('manage/layout', [], true)
+ 9 APPPATH\Controllers\manage\ShopCategory.php(128): view('manage/layout', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\manage\ShopCategory->edit('1')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\manage\ShopCategory))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 10:32:58 --> foreach() argument must be of type array|object, string given
+in APPPATH\Helpers\common_helper.php on line 192.
+ 1 APPPATH\Helpers\common_helper.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Helpers\\common_helper.php', 192)
+ 2 APPPATH\Views\manage\contents\shopcategory\edit_shopcategory_view.php(22): showCategories('0', [...])
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\manage\\contents\\shopcategory\\edit_shopcategory_view.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/manage/contents/shopcategory/edit_shopcategory_view', [], true)
+ 6 APPPATH\Views\manage\layout.php(58): view('/manage/contents/shopcategory/edit_shopcategory_view', [...])
+ 7 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\manage\\layout.php')
+ 8 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('manage/layout', [], true)
+10 APPPATH\Controllers\manage\ShopCategory.php(128): view('manage/layout', [...])
+11 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\manage\ShopCategory->edit('1')
+12 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\manage\ShopCategory))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 10:38:25 --> foreach() argument must be of type array|object, string given
+in APPPATH\Helpers\common_helper.php on line 192.
+ 1 APPPATH\Helpers\common_helper.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Helpers\\common_helper.php', 192)
+ 2 APPPATH\Views\manage\contents\shopcategory\edit_shopcategory_view.php(22): showCategories('0', [...])
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\manage\\contents\\shopcategory\\edit_shopcategory_view.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/manage/contents/shopcategory/edit_shopcategory_view', [], true)
+ 6 APPPATH\Views\manage\layout.php(58): view('/manage/contents/shopcategory/edit_shopcategory_view', [...])
+ 7 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\manage\\layout.php')
+ 8 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('manage/layout', [], true)
+10 APPPATH\Controllers\manage\ShopCategory.php(128): view('manage/layout', [...])
+11 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\manage\ShopCategory->edit('1')
+12 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\manage\ShopCategory))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 10:40:23 --> foreach() argument must be of type array|object, string given
+in APPPATH\Helpers\common_helper.php on line 192.
+ 1 APPPATH\Helpers\common_helper.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Helpers\\common_helper.php', 192)
+ 2 APPPATH\Views\manage\contents\shopcategory\edit_shopcategory_view.php(22): showCategories('0', [...])
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\manage\\contents\\shopcategory\\edit_shopcategory_view.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/manage/contents/shopcategory/edit_shopcategory_view', [], true)
+ 6 APPPATH\Views\manage\layout.php(58): view('/manage/contents/shopcategory/edit_shopcategory_view', [...])
+ 7 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\manage\\layout.php')
+ 8 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('manage/layout', [], true)
+10 APPPATH\Controllers\manage\ShopCategory.php(128): view('manage/layout', [...])
+11 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\manage\ShopCategory->edit('1')
+12 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\manage\ShopCategory))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 10:41:37 --> foreach() argument must be of type array|object, string given
+in APPPATH\Helpers\common_helper.php on line 192.
+ 1 APPPATH\Helpers\common_helper.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Helpers\\common_helper.php', 192)
+ 2 APPPATH\Views\manage\contents\shopcategory\edit_shopcategory_view.php(22): showCategories('0', [...])
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\manage\\contents\\shopcategory\\edit_shopcategory_view.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/manage/contents/shopcategory/edit_shopcategory_view', [], true)
+ 6 APPPATH\Views\manage\layout.php(58): view('/manage/contents/shopcategory/edit_shopcategory_view', [...])
+ 7 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\manage\\layout.php')
+ 8 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('manage/layout', [], true)
+10 APPPATH\Controllers\manage\ShopCategory.php(128): view('manage/layout', [...])
+11 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\manage\ShopCategory->edit('1')
+12 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\manage\ShopCategory))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 10:42:42 --> Undefined property: stdClass::$name
+in APPPATH\Views\manage\contents\shopcategory\edit_shopcategory_view.php on line 36.
+ 1 APPPATH\Views\manage\contents\shopcategory\edit_shopcategory_view.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$name', 'APPPATH\\Views\\manage\\contents\\shopcategory\\edit_shopcategory_view.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\manage\\contents\\shopcategory\\edit_shopcategory_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/manage/contents/shopcategory/edit_shopcategory_view', [], true)
+ 5 APPPATH\Views\manage\layout.php(58): view('/manage/contents/shopcategory/edit_shopcategory_view', [...])
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\manage\\layout.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('manage/layout', [], true)
+ 9 APPPATH\Controllers\manage\ShopCategory.php(128): view('manage/layout', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\manage\ShopCategory->edit('1')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\manage\ShopCategory))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 10:42:51 --> Undefined array key "name"
+in APPPATH\Helpers\common_helper.php on line 222.
+ 1 APPPATH\Helpers\common_helper.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'APPPATH\\Helpers\\common_helper.php', 222)
+ 2 APPPATH\Views\manage\contents\shopcategory\edit_shopcategory_view.php(47): showShopCategories('0', [...])
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\manage\\contents\\shopcategory\\edit_shopcategory_view.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/manage/contents/shopcategory/edit_shopcategory_view', [], true)
+ 6 APPPATH\Views\manage\layout.php(58): view('/manage/contents/shopcategory/edit_shopcategory_view', [...])
+ 7 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\manage\\layout.php')
+ 8 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('manage/layout', [], true)
+10 APPPATH\Controllers\manage\ShopCategory.php(128): view('manage/layout', [...])
+11 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\manage\ShopCategory->edit('1')
+12 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\manage\ShopCategory))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 10:43:05 --> foreach() argument must be of type array|object, string given
+in APPPATH\Helpers\common_helper.php on line 192.
+ 1 APPPATH\Helpers\common_helper.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Helpers\\common_helper.php', 192)
+ 2 APPPATH\Helpers\common_helper.php(231): showCategories('0', [...], '1', '— ')
+ 3 APPPATH\Views\manage\contents\shopcategory\edit_shopcategory_view.php(47): showShopCategories('0', [...])
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\manage\\contents\\shopcategory\\edit_shopcategory_view.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/manage/contents/shopcategory/edit_shopcategory_view', [], true)
+ 7 APPPATH\Views\manage\layout.php(58): view('/manage/contents/shopcategory/edit_shopcategory_view', [...])
+ 8 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\manage\\layout.php')
+ 9 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('manage/layout', [], true)
+11 APPPATH\Controllers\manage\ShopCategory.php(128): view('manage/layout', [...])
+12 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\manage\ShopCategory->edit('1')
+13 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\manage\ShopCategory))
+14 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
