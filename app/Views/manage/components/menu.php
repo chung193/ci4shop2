@@ -64,7 +64,7 @@
                         <li>
                             <hr class="dropdown-divider m-0">
                         </li>
-                        <li><a class="dropdown-item" href="<?= base_url() . '/manage/shop-order' ?>">Đơn hàng</a></li>
+                        <li><a class="dropdown-item" href="<?= base_url() . '/manage/order' ?>">Đơn hàng</a></li>
                     </ul>
                 </li>
 
@@ -90,9 +90,25 @@
                     </a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="<?= base_url() . '/manage/slider/add' ?>">Slider</a></li>
-                        <li><a class="dropdown-item" href="<?= base_url() . '/manage/post/add' ?>">Bài viết</a></li>
-                        <li><a class="dropdown-item" href="<?= base_url() . '/manage/page/add' ?>">Trang</a></li>
+                        <li>
+                            <hr class="dropdown-divider m-0">
+                        </li>
                         <li><a class="dropdown-item" href="<?= base_url() . '/manage/category/add' ?>">Danh mục</a></li>
+                        <li><a class="dropdown-item" href="<?= base_url() . '/manage/post/add' ?>">Bài viết</a></li>
+                        <li>
+                            <hr class="dropdown-divider m-0">
+                        </li>
+                        <li><a class="dropdown-item" href="<?= base_url() . '/manage/page/add' ?>">Trang</a></li>
+                        <li>
+                            <hr class="dropdown-divider m-0">
+                        </li>
+                        <li><a class="dropdown-item" href="<?= base_url() . '/manage/producer/add' ?>">Nhà cung cấp</a></li>
+                        <li><a class="dropdown-item" href="<?= base_url() . '/manage/shop-category/add' ?>">Danh mục hàng</a></li>
+                        <li><a class="dropdown-item" href="<?= base_url() . '/manage/shop-product/add' ?>">Sản phẩm</a></li>
+                        <li><a class="dropdown-item" href="<?= base_url() . '/manage/order' ?>">Lên đơn</a></li>
+                        <li>
+                            <hr class="dropdown-divider m-0">
+                        </li>
                         <li><a class="dropdown-item" href="<?= base_url() . '/manage/user/add' ?>">Người dùng</a></li>
                     </ul>
                 </li>

@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 namespace Config;
 
@@ -225,8 +225,60 @@ $routes->group('manage', ['filter' => 'auth'], function ($routes) {
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
+// $routes->get('/', 'Home::index');
+// frontend
+$routes->get('/', 'frontend\Home::index');
+// Bài viết và trang
 
+// chuyen muc
+$routes->get('/danh-muc/(:any)', 'frontend\Category::index/$1');
+// bai viet
+$routes->get('/bai-viet/(:any)', 'frontend\Post::index/$1');
+
+
+
+// Khach hang
+$routes->get('/khach-hang/dang-ky', 'frontend\Customer::register');
+$routes->get('/khach-hang/dang-nhap', 'frontend\Customer::login');
+$routes->get('/khach-hang/dang-xuat', 'frontend\Customer::logout');
+
+$routes->post('/khach-hang/xac-thuc', 'frontend\Customer::auth');
+$routes->post('/khach-hang/luu-thong-tin', 'frontend\Customer::save');
+
+// sản phẩm
+// danh mục
+$routes->get('/danh-muc-san-pham/(:any)', 'frontend\ShopCategory::index/$1');
+// chi tiết sản phẩm
+// giỏ hàng
+$routes->post('/gio-hang/them-vao-gio', 'frontend\ShopCart::addcart');
+$routes->get('/gio-hang/xoa-khoi-gio', 'frontend\ShopCart::removeitem');
+$routes->post('/gio-hang/cap-nhat-gio', 'frontend\ShopCart::updateitem');
+$routes->get('/gio-hang/lay-gio-hang', 'frontend\ShopCart::getcart');
+$routes->get('/gio-hang', 'frontend\ShopCart::index');
+$routes->get('/gio-hang/xoa-gio-hang', 'frontend\ShopCart::deletecart');
+$routes->get('/gio-hang/dem-gio-hang', 'frontend\ShopCart::countcart');
+
+$routes->get('/gio-hang/checkout', 'frontend\ShopCart::checkout');
+$routes->post('/gio-hang/hoan-tat', 'frontend\ShopCart::order_info');
+
+$routes->get('/san-pham/(:segment)', 'frontend\ShopProduct::index/$1');
+
+// khuyến mại
+$routes->get('/khuyen-mai/', 'frontend\ShopDiscount::index');
+$routes->get('/khuyen-mai/(:segment)', 'frontend\ShopDiscount::index/$1');
+
+// tìm kiếm
+$routes->get('/search/', 'frontend\Home::search');
+
+// trang
+$routes->get('/(:segment)', 'frontend\Page::index/$1');
+
+
+// đăng nhập
+// checkout
+// xác nhận đặt hàng
+
+$routes->get('/livesearch/(:any)', 'frontend\Home::livesearch/$1');
 /*
  * --------------------------------------------------------------------
  * Additional Routing
