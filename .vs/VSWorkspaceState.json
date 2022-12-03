@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app",
+    "\\app\\Config",
+    "\\app\\Controllers",
+    "\\app\\Controllers\\frontend",
+    "\\app\\Views\\manage\\contents\\SEO",
+    "\\app\\Views\\manage\\contents\\shoporder"
+  ],
+  "SelectedNode": "\\app\\Controllers\\frontend\\Home.php",
+  "PreviewInSolutionExplorer": false
+}
